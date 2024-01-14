@@ -1,0 +1,21 @@
+.partners__image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+    .partners__image {
+     max-width: 135px;
+    }
+  }
+
+  @media screen and (max-width: 577px) {
+    .partners__image {
+     max-width: 211px;
+    }
+  }
+
+  @media screen and (max-width: 465px) {
+    .partners__image {
+     max-width: 120px;
+    }
+  }

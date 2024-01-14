@@ -1,0 +1,28 @@
+.info__button {
+  width: 255px;
+  height: 70px;
+  border: 1px solid #7875FE;
+  background-color: white;
+  color: #7875FE;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.info__button:hover {
+  color: rgb(120, 117, 254, 0.8);
+}
+
+@media screen and (max-width: 577px) {
+  .info__button {
+    width: 196px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .info__button {
+    width: 144px;
+    height: 50px;
+  }
+}

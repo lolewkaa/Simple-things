@@ -1,0 +1,26 @@
+.info__title {
+  color: #4C5866;
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 769px) {
+  .info__title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .info__title {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .info__title {
+    font-size: 30px;
+    width: 221px;
+  }
+}

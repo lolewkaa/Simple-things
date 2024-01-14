@@ -1,0 +1,16 @@
+.footer__logo-box {
+  max-width: 140px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin: 29px 0 29px 0;
+}
+
+@media screen and (max-width: 321px) {
+  .footer__logo-box {
+    border-bottom: 1px solid #DDD;
+    min-width: 290px;
+    justify-content: center;
+    padding-bottom: 19.5px;
+  }
+}

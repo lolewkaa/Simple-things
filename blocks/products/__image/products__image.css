@@ -1,0 +1,22 @@
+.products__image {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .products__image {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .products__image {
+    max-width: 240px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .products__image {
+    max-width: 290px;
+  }
+}

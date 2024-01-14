@@ -1,0 +1,11 @@
+.description__results {
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 489px) {
+  .description__results {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,33 @@
+.description__result {
+  display: flex;
+  max-width: 350px;
+  justify-content: space-between;
+  padding-top: 19px;
+  border-top: 1px solid #C0C0C0;
+}
+
+@media screen and (max-width: 865px) {
+  .description__result {
+    flex-direction: column;
+    max-width: 210px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .description__result {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .description__result {
+    max-width: 290px;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .description__result:first-of-type {
+    margin-top: 0;
+  }
+}
+

@@ -1,0 +1,11 @@
+.description__box {
+  display: flex;
+  margin-top: 90px;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 675px) {
+  .description__box {
+    flex-direction: column;
+  }
+}

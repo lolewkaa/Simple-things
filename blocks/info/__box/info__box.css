@@ -1,0 +1,28 @@
+.info__box {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 769px) {
+  .info__box {
+   margin: 65px 39px 65px 39px;
+   
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .info__box {
+    margin: 20px 32px 65px 32px;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .info__box {
+    flex-direction: column;
+    width: 289px;
+    margin: 49px auto;
+  }
+}

@@ -1,0 +1,15 @@
+.offer__title {
+  color: #666;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 577px) {
+    .offer__title {
+      font-size: 24px;
+      margin: 0 0 20px 0;
+    }
+  }

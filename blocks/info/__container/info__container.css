@@ -1,0 +1,24 @@
+.info__container {
+  max-width: 445px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 769px) {
+  .info__container {
+    margin: 0;
+    max-width: 390px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .info__container {
+    margin: 0;
+    max-width: 286px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .info__container {
+    width: 289px;
+  }
+}

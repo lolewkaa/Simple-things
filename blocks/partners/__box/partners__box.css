@@ -1,0 +1,32 @@
+.partners__box {
+  max-width: 255px;
+  border: 1px solid #C4C4C4;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1138px) {
+    .partners__box {
+     max-width: 150px;
+     max-height: 80px;
+     
+    }
+  }
+
+  @media screen and (max-width: 577px) {
+    .partners__box {
+     max-width: 240px;
+     max-height: 127px;
+     
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    .partners__box {
+     max-width: 150px;
+     max-height: 80px;
+     
+    }
+  }

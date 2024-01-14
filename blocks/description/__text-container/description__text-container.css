@@ -1,0 +1,10 @@
+.description__text-container {
+  padding-top: 59px;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 577px) {
+  .description__text-container {
+    max-width: 510px;
+  }
+}

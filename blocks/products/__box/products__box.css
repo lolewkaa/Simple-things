@@ -1,0 +1,10 @@
+.products__box {
+  max-width: 255px;
+}
+
+@media screen and (max-width: 769px) {
+  .products__box {
+    max-width: 330px;
+  }
+}
+

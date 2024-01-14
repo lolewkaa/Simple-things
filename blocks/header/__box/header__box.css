@@ -1,0 +1,7 @@
+.header__box {
+  max-width: 140px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin: 29px 0 29px 0;
+}

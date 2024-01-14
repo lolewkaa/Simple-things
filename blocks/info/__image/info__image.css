@@ -1,0 +1,17 @@
+.info__image {
+  
+}
+
+@media screen and (max-width: 805px) {
+    .info__image {
+      max-width: 270px;
+      
+    }
+  }
+
+  @media screen and (max-width: 456px) {
+    .info__image {
+      display: none;
+      
+    }
+  }

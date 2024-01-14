@@ -1,0 +1,15 @@
+.header__box-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0 28px 0;
+ 
+}
+
+ @media screen and (max-width: 691px) {
+  .header__box-links {
+    
+    display: flex;
+    flex-direction: column;
+  }
+} 
+

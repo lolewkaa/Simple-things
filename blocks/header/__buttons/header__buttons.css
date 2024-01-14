@@ -1,0 +1,11 @@
+.header__buttons {
+  height: 24px;
+  display: flex;
+}
+
+
+ @media screen and (max-width: 691px) {
+  .header__buttons {
+    margin-top: 20px;
+  }
+} 

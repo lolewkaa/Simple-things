@@ -1,0 +1,10 @@
+.offer__box {
+  max-width: 350px;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 577px) {
+    .offer__box {
+      max-width: 510px;
+    }
+  }

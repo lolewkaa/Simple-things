@@ -1,0 +1,27 @@
+.offer__container {
+  max-width: 1110px;
+  display: flex;
+  margin: 90px auto 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 769px) {
+    .offer__container {
+      max-width: 690px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (max-width: 695px) {
+    .offer__container {
+      flex-direction: column-reverse;
+      max-width: 510px;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    .offer__container {
+      max-width: 290px;
+    }
+  }

@@ -1,0 +1,22 @@
+.description__container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 769px) {
+  .description__container {
+    margin: 0 39px 0 39px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .description__container {
+    margin: 0 33px 0 33px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .description__container {
+    margin: 0 15px 0 15px;
+  }
+}

@@ -1,0 +1,10 @@
+.products__link {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: #7875FE;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+}
