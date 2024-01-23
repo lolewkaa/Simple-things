@@ -1,15 +1,35 @@
 .info__image {
-  
+  background-image: url(../../../images/Layer\ 2\ copy.png);
+  width: 540px;
+  height: 500px;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 1059px) {
+  .info__image {
+    background-image: url(../../../images/Layer\ 2\ copy510.png);
+    width: 270px;
+    height: 368px;
+  }
+}
+
+@media screen and (max-width: 768px) {
     .info__image {
-      max-width: 270px;
-      
+      background-image: url(../../../images/Layer\ 2\ copy768.png);
+      width: 270px;
+      height: 400px;
     }
   }
 
-  @media screen and (max-width: 456px) {
+  @media screen and (max-width: 738px) {
+  .info__image {
+    background-image: url(../../../images/Layer\ 2\ copy510.png);
+    width: 270px;
+    height: 368px;
+  }
+}
+  
+  @media screen and (max-width: 553px) {
     .info__image {
       display: none;
       

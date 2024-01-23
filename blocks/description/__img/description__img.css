@@ -5,6 +5,13 @@
 
 @media screen and (max-width: 1067px) {
   .description__img {
+    max-width: 500px;
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .description__img {
     max-width: 330px;
     height: 256px;
   }

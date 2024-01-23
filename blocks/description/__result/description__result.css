@@ -6,7 +6,7 @@
   border-top: 1px solid #C0C0C0;
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1123px) {
   .description__result {
     flex-direction: column;
     max-width: 210px;

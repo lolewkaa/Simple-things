@@ -6,16 +6,31 @@
   margin-top: 60px;
 }
 
+@media screen and (max-width: 1129px) {
+  .info__box {
+   margin: 65px 39px 0 39px;
+   
+  }
+}
+
+@media screen and (max-width: 1058px) {
+  .info__box {
+   margin: 65px 39px 0 39px;
+   align-items: flex-end;
+   
+  }
+}
+
 @media screen and (max-width: 769px) {
   .info__box {
-   margin: 65px 39px 65px 39px;
+   align-items: flex-start;
    
   }
 }
 
 @media screen and (max-width: 577px) {
   .info__box {
-    margin: 20px 32px 65px 32px;
+    margin: 20px 32px 0 32px;
   }
 }
 

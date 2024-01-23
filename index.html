@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
+  <div>
   <header class="header">
     <div class="header__container">
       <div class="header__box">
@@ -15,13 +16,15 @@
         <img class="header__image-rectangle" src="images/Rectangle 3.svg" alt="Овал">
         <img class="header__image" src="images/Ellipse 3.svg" alt="Круг">
       </div>
-      <div class="header__box-links"> 
         <div class="header__links">
           <a href="#" class="header__link">Продукция</a>
           <a href="#" class="header__link">Материалы</a>
           <a href="#" class="header__link">О нас</a>
           <a href="#" class="header__link">Контакты</a>
         </div> 
+        <button class="header__burger-button">
+          <img src="images/List.svg">
+        </button>
         <div class="header__buttons">
           <button class="header__button">
             <img class="header__image-button" alt="Иконка 'Поиск'" src="images/search.svg">
@@ -30,7 +33,6 @@
             <img class="header__image-button" alt="Иконка 'Выход'" src="images/log_in.svg">
           </button>
      </div> 
-      </div>
     </div>
   </header>
   <section class="info">
@@ -40,7 +42,9 @@
         <h2 class="info__text">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </h2>
         <button class="info__button">Каталог</button>
       </div>
-      <img class="info__image" src="images/Layer 2 copy.png">
+      <div class="info__image">
+
+      </div>
     </div>
   </section>
   <section class="description">
@@ -163,5 +167,19 @@
       <h2 class="footer__text">SIMPLE ® 2024</h2>
     </div>
   </footer>
+  <div class="popup" id="popup">
+    <div class="popup__container">
+    <button class="popup__button">
+      <img src="images/Frame 7.svg">
+    </button>
+    <ul class="popup__menu" id="menu">
+      <li><a href="#" class="header__link">Продукция</a></li>
+      <li><a href="#" class="header__link">Материалы</a></li>
+      <li><a href="#" class="header__link">О нас</a></li>
+      <li><a href="#" class="header__link">Контакты</a></li>
+    </ul>
+  </div>
+</div>
+  <script src="script.js"></script>
 </body>
 </html>

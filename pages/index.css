@@ -15,6 +15,7 @@
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__image-button/header__image-button.css);
+@import url(../blocks/header/__burger-button/header__burger-button.css);
 
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__box/info__box.css);
@@ -71,3 +72,19 @@
 @import url(../blocks/footer/__logo-box/footer__logo-box.css);
 @import url(../blocks/footer/__logo-text/footer__logo-text.css);
 @import url(../blocks/footer/__text/footer__text.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__menu/popup__menu.css);
+
+.open {
+    display: block;
+    visibility: visible;
+        opacity: 1;
+        transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.close {
+    display: none;
+}

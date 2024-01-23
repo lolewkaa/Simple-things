@@ -3,7 +3,7 @@
   max-width: 350px;
 }
 
-@media screen and (max-width: 577px) {
+@media screen and (max-width: 832px) {
   .description__text-container {
     max-width: 510px;
   }

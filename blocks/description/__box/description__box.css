@@ -4,6 +4,12 @@
   max-width: 1110px;
 }
 
+@media screen and (max-width: 1067px) {
+  .description__box {
+    justify-content: space-between;
+  }
+}
+
 @media screen and (max-width: 675px) {
   .description__box {
     flex-direction: column;

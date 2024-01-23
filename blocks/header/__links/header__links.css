@@ -3,18 +3,21 @@
   font-size: 20px;
   line-height: 1.2;
   max-width: 686px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  align-items: center;
 }
 
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 769px) {
   .header__links {
-   border-bottom: 1px solid #DDD;
-   padding-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
   }
 } 
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 409px) {
   .header__links {
-   display: flex;
-   flex-direction: column;
+   display: none;
   }
 } 

@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 577px) {
+@media screen and (max-width: 832px) {
   .description__title {
     font-size: 24px;
   }
